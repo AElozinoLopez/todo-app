@@ -2,3 +2,9 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: lightblue;
+    height: 600px;
+    background-position: center;
+}
