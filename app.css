@@ -18,3 +18,10 @@ body {
     margin: 100px auto;
     /* box-shadow: 5px 10px 20px black; */
 }
+
+ul {
+    margin: 0;
+    border-left: 6px solid teal;
+    list-style-type: none;
+    padding: 0;
+}
