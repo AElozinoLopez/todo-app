@@ -16,5 +16,5 @@ body {
     align-self: center;
     display: block;
     margin: 100px auto;
-    box-shadow: 5px 10px 20px black;
+    /* box-shadow: 5px 10px 20px black; */
 }
