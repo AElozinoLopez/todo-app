@@ -40,6 +40,13 @@ ul li:hover {
     background-color: #ddd;
 } 
 
+/* Wondering why this is necessary */
 ul li:nth-child(odd) {
     background: whitesmoke;
+} 
+
+ul li.checked {
+    background: #888;
+    color: white;
+    text-decoration: line-through;
 }
