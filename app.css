@@ -35,3 +35,7 @@ ul li {
     transition: 0.2s;
     user-select: none;
 }
+
+ul li:hover {
+    background-color: #ddd;
+}
