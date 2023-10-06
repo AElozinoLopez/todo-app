@@ -40,7 +40,7 @@ ul li:hover {
     background-color: #ddd;
 } 
 
-/* Wondering why this is necessary */
+/* Allows for selective highlighting when scrolling */
 ul li:nth-child(odd) {
     background: whitesmoke;
 } 
@@ -49,4 +49,10 @@ ul li.checked {
     background: #888;
     color: white;
     text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: whitesmoke;
 }
