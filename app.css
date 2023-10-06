@@ -75,3 +75,10 @@ ul li.checked::before {
     background-color: orangered;
     color: white;
 }
+
+.header {
+    background-color: teal;
+    padding: 30px 30px;
+    color: wheat;
+    text-align: center;
+}
