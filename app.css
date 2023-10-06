@@ -38,4 +38,8 @@ ul li {
 
 ul li:hover {
     background-color: #ddd;
+} 
+
+ul li:nth-child(odd) {
+    background: whitesmoke;
 }
