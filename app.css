@@ -82,3 +82,9 @@ ul li.checked::before {
     color: wheat;
     text-align: center;
 }
+
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
