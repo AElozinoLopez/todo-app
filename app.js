@@ -12,3 +12,8 @@ for (i = 0; i < myNodeList.length; i++) {
     span.appendChild('txt');
     myNodeList[i].appendChild(span)
 }
+
+
+// Click on a close button to hide the current list
+let close = document.getElementsByClassName('close');
+
