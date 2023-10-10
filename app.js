@@ -16,4 +16,6 @@ for (i = 0; i < myNodeList.length; i++) {
 
 // Click on a close button to hide the current list
 let close = document.getElementsByClassName('close');
+let j;
+
 
