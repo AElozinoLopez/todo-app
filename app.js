@@ -1,0 +1,1 @@
+let myNodeList = document.getElementsByTagName('LI');
